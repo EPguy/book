@@ -1,13 +1,11 @@
-package com.juseong.book;
+package com.juseong.book.springboot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BookApplication {
-
+public class Application {
     public static void main(String[] args) {
-        SpringApplication.run(BookApplication.class, args);
+        SpringApplication.run(Application.class, args);
     }
-
 }
